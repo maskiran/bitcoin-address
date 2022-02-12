@@ -9,9 +9,11 @@
 # I found these using google and landed on stackoverflow and some websites
 
 PRIVATE_KEY_FILE="string-privatekey.pem"
+
 secp256k1_prefix="302e0201010420"
 secp256k1_suffix="a00706052b8104000a"
-private_key="6571e57d45e75d4803a4415c16d25d47827235d75a9bbf44c74df1e7b3db826f"
+
+private_key="$1"
 
 input="${secp256k1_prefix}${private_key}${secp256k1_suffix}"
 
