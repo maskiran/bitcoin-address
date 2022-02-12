@@ -25,3 +25,10 @@ bash from-privatekey-string.sh $key_str
 pip install -r requirements.txt
 python address.py
 ```
+
+# References
+
+1. https://www.bitaddress.org
+1. https://github.com/tlsfuzzer/python-ecdsa
+1. https://iancoleman.io/bitcoin-key-compression/
+1. http://gobittest.appspot.com/Address

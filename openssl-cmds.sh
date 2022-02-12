@@ -23,7 +23,7 @@ if [ ! -f $PRIVATE_KEY_FILE ]; then
     openssl ecparam -name secp256k1 -genkey -out $PRIVATE_KEY_FILE
 fi
 
-# no need to dump public key, as i can read the private and 
+# no need to dump public key, as i can read the private and
 # public key strings from the text output of the private key file
 # openssl ec -in $PRIVATE_KEY_FILE -pubout -out publickey.pem
 
