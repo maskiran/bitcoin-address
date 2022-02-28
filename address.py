@@ -1,4 +1,3 @@
-from audioop import add
 import hashlib
 
 from ecdsa import SigningKey, SECP256k1
